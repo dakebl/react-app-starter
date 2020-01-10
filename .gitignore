@@ -1,0 +1,4 @@
+.DS_*
+.cache
+bundle
+node_modules
