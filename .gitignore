@@ -1,4 +1,4 @@
-.DS_*
 .cache
+.DS_*
 dist
 node_modules
