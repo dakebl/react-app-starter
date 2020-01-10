@@ -1,15 +1,9 @@
 {
-  "name": "@dakebl/react-app-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ."
+  "author": {
+    "email": "dale@dakebl.co.uk",
+    "name": "Dale Blackburn",
+    "url": "http://dakebl.co.uk/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@mdx-js/react": "^1.0.0-rc.5",
@@ -19,11 +13,28 @@
     "react-use": "^13.14.3",
     "theme-ui": "^0.2.52"
   },
+  "description": "React Starter using Theme UI & Parcel",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
     "@mdx-js/parcel-plugin-mdx": "^1.5.3",
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "homepage": "https://github.com/dakebl/react-app-starter#readme",
+  "keywords": [
+    "React",
+    "Theme UI",
+    "Parcel",
+    "Starter",
+    "Repository Template"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@dakebl/react-app-starter",
+  "scripts": {
+    "build": "parcel build src/index.html --public-url .",
+    "start": "parcel src/index.html"
+  },
+  "version": "1.0.0"
 }
