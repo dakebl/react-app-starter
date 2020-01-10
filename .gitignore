@@ -1,4 +1,4 @@
 .DS_*
 .cache
-bundle
+dist
 node_modules
